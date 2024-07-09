@@ -29,4 +29,11 @@ public class ZipyTestModule extends ReactContextBaseJavaModule {
   public void multiply(double a, double b, Promise promise) {
     promise.resolve(a * b);
   }
+
+    // Example method
+  // See https://reactnative.dev/docs/native-modules-android
+  @ReactMethod
+  public void subsct(double a, double b, Promise promise) {
+    promise.resolve(a * b);
+  }
 }
